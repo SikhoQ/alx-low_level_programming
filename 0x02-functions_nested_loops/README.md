@@ -6,3 +6,5 @@
 5-sign.c is a function that prints the sign of a number passed as argument.
 6-abs.c is a function that computes the absolute value of an integer passed as argument.
 7-print_last_digit.c is a function that prints the last digit of a number given as argument.
+8-24_hours.c is a function that prints every minute from 00:00 to 23:59.
+
