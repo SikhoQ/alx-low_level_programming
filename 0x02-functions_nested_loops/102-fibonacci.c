@@ -5,25 +5,25 @@
  */
 void	print_fibonacci_50(void)
 {
-	unsigned int	previous;
-	unsigned int	current;
-	unsigned int	temp;
+	long	previous;
+	long	current;
+	long	temp;
 	int	i;
 
 	previous = 1;
 	current = 2;
 	i = 1;
 
-	printf("%d, %d, ", previous, current);
+	printf("%ld, %ld, ", previous, current);
 	while (i++ <= 48)
 	{
 		temp = current;
 		current += previous;
 		previous = temp;
 		if (i == 48)
-			printf("%d\n", current);
+			printf("%ld\n", current);
 		else
-			printf("%d, ", current);
+			printf("%ld, ", current);
 	}
 
 }
