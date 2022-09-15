@@ -5,10 +5,10 @@
  */
 void	print_fibonacci_50(void)
 {
-	int	previous;
-	int	current;
+	unsigned int	previous;
+	unsigned int	current;
+	unsigned int	temp;
 	int	i;
-	int	temp;
 
 	previous = 1;
 	current = 2;
