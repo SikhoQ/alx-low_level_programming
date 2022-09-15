@@ -12,4 +12,5 @@
 11-print_to_98.c is a function that prints all natural numbers from n to 98, followed by a new line.
 100-times_table.c is a function that prints a n times table.
 101-natural.c is a program that computes and prints the sum of all numbers below 1024 that are multiples of 3 or 5.
+102-fibonacci.c is a program that prints hte first 50 Fibonacci numbers, starting with 1 and 2.
 
