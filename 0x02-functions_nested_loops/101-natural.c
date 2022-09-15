@@ -14,8 +14,11 @@ int	compute_sum(void)
 	num = 3;
 
 	while (num < 1024)
+	{
 		if (!(num % 3) || !(num % 5))
-			total += num++;
+			total += num;
+		num++;
+	}
 
 	return (total);
 }
