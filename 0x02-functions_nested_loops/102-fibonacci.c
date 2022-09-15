@@ -15,12 +15,12 @@ void	print_fibonacci_50(void)
 	i = 1;
 
 	printf("%ld, %ld, ", previous, current);
-	while (i++ <= 48)
+	while (i <= 48)
 	{
 		temp = current;
 		current += previous;
 		previous = temp;
-		if (i == 48)
+		if (i++ == 48)
 			printf("%ld\n", current);
 		else
 			printf("%ld, ", current);
