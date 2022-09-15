@@ -20,7 +20,7 @@ void	fibonacci_sum(void)
 		current += previous;
 		previous = temp;
 	}
-	printf("%ld\n", current);
+	printf("%d\n", current);
 }
 
 /**
