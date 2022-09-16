@@ -7,4 +7,5 @@
 6-print_line.c is a function that draws a staright line in the terminal.
 7-print_diagonal.c is a function that draws a diagonal line in the terminal.
 8-print_square.c is a function that prints a square to stdout.
+9-fizz_buzz.c is a program that prints 1 to 100, but prints Fizz for multiples of 3, prints BUzz for multiples of 5, and prints FizzBuzz for multiples of both 3 and 5.
 
