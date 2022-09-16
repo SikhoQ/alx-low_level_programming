@@ -5,4 +5,5 @@
 4-print_most_numbers.c is a function that prints 0 to 9, excluding 2 and 4, followed by a new line.
 5-more_numbers.c is a function that prints 0 to 14, 10 times, followed by a new line.
 6-print_line.c is a function that draws a staright line in the terminal.
+7-print_diagonal.c is a function that draws a diagonal line in the terminal.
 
