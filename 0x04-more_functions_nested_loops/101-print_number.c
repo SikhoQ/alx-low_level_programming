@@ -11,7 +11,6 @@ void	print_number(int n)
 	int	divisor;
 
 	divisor = 1;
-	sign = 1;
 
 	if (n < 0)
 	{
