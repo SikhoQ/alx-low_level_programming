@@ -9,4 +9,6 @@
 8-print_square.c is a function that prints a square to stdout.
 9-fizz_buzz.c is a program that prints 1 to 100, but prints Fizz for multiples of 3, prints BUzz for multiples of 5, and prints FizzBuzz for multiples of both 3 and 5.
 10-print_triangle.c is a function that prints a right triangle to stdout, followed by a new line.
+100-prime_factor.c is a program that finds and prints the largest prime factor of 612,852,475,143.
+101-print_number.c is a function that prints the number passed as argument.
 
