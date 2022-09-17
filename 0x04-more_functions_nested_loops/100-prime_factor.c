@@ -32,16 +32,22 @@ int	is_prime(long n)
  */
 void	largest_prime_factor(void)
 {
-	long	largest;
+	long	num;
 	long	divisor;
+	long	result;
 
-	largest = 2;
+	num = 612852475143;
+	result = 1;
 
-	for (divisor = 2; divisor <= 612852475143L / 2; divisor++)
+	for (divisor = 2; divisor <= num / 2; divisor++)
 		if (is_factor(divisor) && is_prime(divisor))
-			largest = divisor;
+		{
+			result *= divisor;
+			if (result == num)
+				break;
+		}
 
-	printf("%ld\n", largest);
+	printf("%ld\n", divisor);
 }
 
 /**
