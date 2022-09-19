@@ -3,4 +3,5 @@ This project consists of tasks that aim to teach the introductory basics of arra
 1-swap.c is a function that swaps the values of two integers.
 2-strlen.c is a function that returns the length of a string passed as an argument.
 3-puts.c is a function that prints to stdout the string passed as an argument.
+4-print_rev.c is a function that prints to stdout the reverse of the string passed as an argument.
 
