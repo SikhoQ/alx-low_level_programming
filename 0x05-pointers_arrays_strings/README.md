@@ -4,4 +4,5 @@ This project consists of tasks that aim to teach the introductory basics of arra
 2-strlen.c is a function that returns the length of a string passed as an argument.
 3-puts.c is a function that prints to stdout the string passed as an argument.
 4-print_rev.c is a function that prints to stdout the reverse of the string passed as an argument.
+5-rev_string.c is a function that reverses a string.
 
