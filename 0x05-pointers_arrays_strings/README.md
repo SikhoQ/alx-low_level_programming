@@ -9,4 +9,5 @@ This project consists of tasks that aim to teach the introductory basics of arra
 7-puts_half.c is a function that prints the second half of a string passed as an argument.
 8-print_array.c is a function that prints n elements of an array of integers.
 9-strcpy.c is a function that copies a string to a buffer.
+100-atoi.c is a function that converts a string of digits to an integer.
 
