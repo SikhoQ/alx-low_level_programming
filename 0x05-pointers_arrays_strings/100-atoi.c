@@ -20,7 +20,7 @@ int	_atoi(char *s)
 	if (!s[i])
 		return (0);
 
-	while (s[i] < '0' || s[i] > '9')
+	while (s[i] && (s[i] < '0' || s[i] > '9'))
 	{
 		if (s[i] == '-')
 			sign = -sign;
