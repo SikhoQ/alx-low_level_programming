@@ -1,3 +1,5 @@
+#include <limits.h>
+
 /**
  * _atoi - converts a string of digits to an integer.
  *
@@ -7,11 +9,11 @@
  */
 int	_atoi(char *s)
 {
-	int	integer;
+	unsigned int	integer;
 	int	sign;
 	int	i;
 
-	integer = 0;
+	integer = 0u;
 	sign = 1;
 	i = 0;
 
