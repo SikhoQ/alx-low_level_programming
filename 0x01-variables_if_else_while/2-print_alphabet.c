@@ -2,6 +2,8 @@
 
 /**
  * main - program entry point.
+ *
+ * Return: always 0 (success).
  */
 int	main(void)
 {
@@ -11,5 +13,6 @@ int	main(void)
 	while (alpha <= 122)
 		putchar(alpha++);
 	putchar('\n');
+	return (0);
 }
 
