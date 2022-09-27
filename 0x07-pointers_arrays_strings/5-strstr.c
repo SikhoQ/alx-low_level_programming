@@ -1,3 +1,6 @@
+#include <stddef.h>
+
+
 /**
  * _strstr - locates a substring within a string.
  *
@@ -20,7 +23,7 @@ char	*_strstr(char *haystack, char *needle)
 			if (haystack[i + j] != neddle[j])
 				break;
 		if (!needle[j])
-			return (&haystack[i]);
+			return (haystack + i);
 	}
 	return (NULL);
 }
